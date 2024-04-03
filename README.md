@@ -1,4 +1,4 @@
-# [artBoard] ([https://](https://artboard.onrender.com))
+# [artBoard](https://artboard.onrender.com)
 
 ## Overview
 This web application allows users to collaborate in real-time by drawing together on a shared canvas.
@@ -30,7 +30,7 @@ TODO: [Include a link to a live demo or a video demonstrating the app in action.
 
 
 ## Usage
-1. Visit the app URL: [https.com](https://artboard.onrender.com)
+1. Visit the app URL:(https://artboard.onrender.com)
 2. Use the drawing tools, colors, sticky notes, and other features to collaborate in real time.
 
 
