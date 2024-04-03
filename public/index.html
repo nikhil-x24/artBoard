@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Art Board</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+        <script
+            src="https://kit.fontawesome.com/26c79f5bd0.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-- cross Icon -->
+        <div class="options-cont">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <!-- box-in-middle -->
+        <div class="tools-cont scale-tools">
+            <img class="pencil" src="icons/pencil.svg" />
+            <img class="eraser" src="icons/eraser.svg" />
+            <img class="download" src="icons/download.svg" />
+            <img class="upload" src="icons/upload.svg" />
+            <img class="sticky" src="icons/note.svg" />
+            <img class="undo" src="icons/undo.svg" />
+            <img class="redo" src="icons/redo.svg" />
+        </div>
+
+        <!-- pencil-Containt-box -->
+        <div class="pencil-tool-cont">
+            <!-- slider -->
+            <div class="pencil-width-cont">
+                <input
+                    type="range"
+                    min="2"
+                    max="10"
+                    value="3"
+                    class="pencil-width-control"
+                />
+            </div>
+            <!-- color -->
+            <div class="pencil-color-cont">
+                <div class="black pencil-color">
+                    <div class="active-color"></div>
+                </div>
+                <div class="red pencil-color">
+                    <div class=""></div>
+                </div>
+                <div class="blue pencil-color">
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- eraser--->
+        <div class="eraser-tool-cont">
+            <!-- slider  -->
+            <input
+                type="range"
+                min="10"
+                max="100"
+                value="10"
+                class="eraser-width-control"
+            />
+        </div>
+
+        <!-- <div class="sticky-cont">
+            <div class="header-cont">
+                <p class="rename"></p>
+                <div class="minimize"></div>
+                <div class="remove"></div>
+            </div>
+            <div class="note-cont">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div> -->
+
+        <canvas style="background-color: whitesmoke;"></canvas>
+        <script
+            src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+            integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+            crossorigin="anonymous">
+        </script>
+        <!-- <script src="https://cdn.socket.io/4.2.0/socket.io.min.js" integrity="sha384-PiBR5S00EtOj2Lto9Uu81cmoyZqR57XcOna1oAuVuIEjzj0wpqDVfD0JA9eXlRsj" crossorigin="anonymous"></script> -->
+        <script>
+            let socket = io.connect("http://localhost:4000/");
+            // let socket = io.connect("https://art-board.onrender.com/");
+        </script>
+        <script src="./script.js"></script>
+        <script src="./canvas.js"></script>
+    </body>
+</html>
+
+<!-- 
+    .text {
+    display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      max-width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height:16px;
+  } 
+
+  p {
+  height: 30%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  width: 200px;
+}
+
+-->
+
+<!-- const para = document.querySelector(".text");
+function myFunction() {
+  
+  if(para.getAttribute('contenteditable') == 'true') {
+  para.setAttribute('contenteditable', 'false');
+  }
+  else {
+  para.setAttribute('contenteditable', 'true');
+  }
+
+} -->
