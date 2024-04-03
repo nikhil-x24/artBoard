@@ -1,4 +1,4 @@
-# artBoard (https://)
+# [artBoard] ([https://](https://artboard.onrender.com))
 
 ## Overview
 This web application allows users to collaborate in real-time by drawing together on a shared canvas.
@@ -22,7 +22,7 @@ This web application allows users to collaborate in real-time by drawing togethe
 TODO: [Include a link to a live demo or a video demonstrating the app in action.]
 
 ## Setup Instructions
-1. Clone the repository: `git clone https://github.com/nikhil-x24/Art-board.git`
+1. Clone the repository: `git clone https://github.com/nikhil-x24/artboard.git`
 2. Install dependencies: `npm install`
 3. Configure environment variables.
 4. Edit application URL for socket client in index.html for line 79 
@@ -30,7 +30,7 @@ TODO: [Include a link to a live demo or a video demonstrating the app in action.
 
 
 ## Usage
-1. Visit the app URL: https.com
+1. Visit the app URL: [https.com](https://artboard.onrender.com)
 2. Use the drawing tools, colors, sticky notes, and other features to collaborate in real time.
 
 
