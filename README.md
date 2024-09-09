@@ -72,9 +72,8 @@ This web application enables users to collaborate in real-time by drawing togeth
    - Work with others in real time, seeing changes instantly on the shared canvas.
 
 
-
 ## Connect with Us
 
 - **Email:** [nikhilverma1425@gmail.com](mailto:nikhilverma1425@gmail.com)
 - **LinkedIn:** [linkedin.com/in/nikhil301](https://www.linkedin.com/in/nikhil301/)
-- **Website:** [nikhil-portfolio.vercel.app](https://portfolio-cuplbm6p2-nikhil-x24s-projects.vercel.app/)
+- **Website:** [nikhil-portfolio.vercel.app](https://nikhilx24-portfolio.vercel.app/)
